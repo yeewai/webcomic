@@ -1,0 +1,5 @@
+<? 	
+	$link = mysql_connect(HOST, USER, PASSWORD) or die(mysql_error());
+	@mysql_select_db(DATABASE,$link) or die(mysql_error());
+	$admin_pw = md5(PASSWORD);
+?>

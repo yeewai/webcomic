@@ -1,0 +1,95 @@
+@font-face {
+    font-family: riesling;
+    src: url("im/riesling.ttf");
+}
+
+.riesling {
+	font-family: riesling;
+	vertical-align: text-bottom;
+	color:#d9b63a;
+} 
+
+.header {
+	width: 80%;
+	height: 120px;
+	background: url("im/barbg.png") repeat-x;
+	position:relative;
+	z-index: 80;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+	#title {
+	  font-size: 120px;
+	  //display: inline-block;
+	  float: left;
+	  font-weight: 300;
+	}
+	
+	nav {
+	  text-align: right;
+	  float: right;
+	  //display: inline-block;
+    font-size: 64px;
+    line-height: 165px;
+	}
+	
+	.logo_container {
+	  width: 200px;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+}
+
+.bg {
+	background: url("im/bg.png") repeat;
+	padding: 0;
+	margin:0;
+}
+
+.contain {
+	top: -23px;
+	margin: 0px auto;
+	position: relative;
+	width: 80%;
+	background-color: #f5e7c6;
+	min-height: 600px;
+	z-index:50;
+	padding-top: 80px;
+	text-align: center;
+	-webkit-box-shadow: 5px 2px 13px rgba(50, 50, 50, 0.58);
+	-moz-box-shadow:    5px 2px 13px rgba(50, 50, 50, 0.58);
+	box-shadow:         5px 2px 13px rgba(50, 50, 50, 0.58);
+	font-family: garamond, Georgia, "Times New Roman", Times, serif;
+	color: #9f6920;
+	font-size: 12px;
+}
+
+.contain a{
+	color:#3a5866;
+}
+
+.page {
+	width: 95%;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#disqus_thread {
+	width: 80%;
+	display: block;
+	margin: 0px auto;
+}
+
+.footer {
+	width: 100%;
+	background-color: #3a5866;
+	border-top:#d9b63a;
+	color:#d9b63a;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
